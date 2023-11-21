@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PostPilot</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5">
+                    <img class="img-logo" src="./asserts/logo.png" alt="">
+                </div>
+                <div class="col-sm-7">
+                    <a class="lnk" href="#">Resources</a>
+                    <a class="lnk-1" href="#">Sucess stories</a>
+                    <a class="lnk-1" href="#">Company</a>
+                    <a class="lnk-1" href="#">Pricing</a>
+                    <button class="btn-1 ">Login</button>
+                    <button class="btn-2">Create free account</button>
+                </div>
+            </div>
+        </div>
+    </header><br>
+    <div class="banner">
+        <img id="myslides" width="1350" height="500">
+
+        <script>
+            let i = 0;
+            let images = ['banner1.jpg', 'banner2.jpg', 'banner3.jpg'];
+            let slide = document.getElementById('myslides');
+    
+            function banner() {
+                slide.src = images[i];
+                i = (i + 1) % images.length;
+                setTimeout(banner, 1000);
+            }
+    
+            window.onload = banner;
+        </script>
+        <div class="caption">
+         <center><p class="p-1"><b>Meet your <br> favourite new(old) <br>marketing channels</b></p>
+         <button class="btn-3">TRY IT RISK FREE</button></center>
+        </div>
+    </div>
+    
+    <center>
+        <p class="p-2"><b>Trusted by thousands <br>of top DTC brands</b></p>
+    </center><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="img-top-brand" src="./asserts/brands 1.jpg" alt="">
+                <center><img class="img-top" src="./asserts/brands 1 - Rungum.png" alt=""></center>
+            </div>
+            <div class="col-sm-3">
+                <img src="./asserts/brands 2.jpg" alt="">
+                <center><img class="img-top" src="./asserts/brands 2 - Beardbrand.png" alt=""></center>
+            </div>
+            <div class="col-sm-3">
+                <img src="./asserts/brands 3.jpg" alt="">
+                <center><img class="img-top" src="./asserts/brands 3 - promix.png" alt=""></center>
+            </div>
+            <div class="col-sm-3">
+                <img src="./asserts/brands 4.jpg" alt="">
+                <center><img class="img-top" src="./asserts/brands 4 - Scotch.png" alt=""></center>
+            </div>
+        </div>
+    </div><br><br><br>
+    <section class="sec-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <center>
+                        <p class="p-2"><b>Why use direct mail?<br>It works like crazy</b></p>
+                    </center><br><br>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h1 class="p-crazy">28X</h1>
+                            <center>
+                                <p class="p-28x">Higher response rate than email <br>& digital</p>
+                            </center>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="p-crazy" src="./asserts/works like crazy.png" alt="">
+                            <center>
+                                <p>Your messages get read</p>
+                            </center>
+                        </div>
+                        <div class="col-sm-4">
+                            <h1 class="p-crazy">17 Days</h1>
+                            <center>
+                                <p>Lifespan of a postcard vs. <br>seconds for email or SMS</p>
+                            </center>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><br><br><br>
+    </section>
+    <section class="sec-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <center>
+                        <p class="p-2"><b>PostPilot makes it a cinch to<br>send personalized,profit- <br>generating postcards.</b></p>
+                    </center><br><br>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="p-3"><b>Powerful<br>acquistion <br>& retention</b></p><br>
+                            <p class="p-4"><b> Send one-off or triggered campaigns to customers & prospects. <br>Target email leads with MailMatch. </b></p>
+
+                            <p class="p-card1">
+                                <b>It's like Klaviyo for direct mail.The results are <br> absolutely insane.</b><br>
+                                <br>Ash Melwani, CMO
+
+                            </p>
+
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-pilot " src="./asserts/Powerful.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img class="img-done" src="./asserts/Done for you.jpg" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="p-5"><b>Done for you</b></p>
+                            <p class="p-6"><b>From design & strategy to stamp-licking, our ecom <br> experts help you every step of the way.</b></p><br>
+                            <p class="p-card2">
+                                <b>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</b><br>
+                                <br>Ash Melwani, CMO
+                            </p><br><br>
+                            <button class="btn-4">TRY IT RISK-FREE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br><br><br>
+    </section>
+    <section class="sec-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <center>
+                        <p class="p-2"><b>Everything your brand needs to<br>make your brand unforgettable</b></p>
+                    </center><br><br>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+
+                            <div class="card-1">
+                                <br><br><br>
+                                <center><img src="./asserts/brand needs to 1.png" alt="" width="250" height="160">
+                                    <br><br><br>
+                                    <h3><b>Plug and play with <br> your stack </b></h3>
+                                    <br>
+                                    <p>Native integrations provide seamless <br> segmentation, automation & tracking. No <br>clunky spreadsheets <br><br><br></p>
+                                </center>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+
+                            <div class="card-2">
+                                <br><br><br>
+                                <center><img src="./asserts/brand needs to 2.png" alt="" width="250" height="160">
+                                    <br><br><br>
+                                    <h3><b>Run campaigans <br> on autopilot</b></h3>
+                                    <br>
+                                    <p>Native integrations provide seamless <br> segmentation, automation & tracking. No <br>clunky spreadsheets <br><br><br></p>
+                                </center>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+
+                            <div class="card-3">
+                                <br><br><br>
+                                <center><img src="./asserts/brand needs to 3.png" alt="" width="270" height="194">
+                                    <br><br><br>
+                                    <h3><b>Real-time ROI dashboard </b></h3>
+                                    <br>
+                                    <p>Native integrations provide seamless <br> segmentation, automation & tracking. No <br>clunky spreadsheets <br><br><br></p>
+                                </center>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+
+                            <div class="card-2">
+                                <br><br><br>
+                                <center><img src="./asserts/brand needs to 4.png" alt="" width="250" height="160">
+                                    <br><br><br>
+                                    <h3><b>Deliver WOW with *real* <br> handwritten cards </b></h3>
+                                    <br>
+                                    <p>Native integrations provide seamless <br> segmentation, automation & tracking. No <br>clunky spreadsheets <br><br><br></p>
+                                </center>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+
+                            <div class="card-1">
+                                <br><br><br>
+                                <center><img src="./asserts/brand needs to 5.png" alt="" width="270" height="193">
+                                    <br><br><br>
+                                    <h3><b>Predictable pricing</b></h3>
+                                    <br>
+                                    <p>Native integrations provide seamless <br> segmentation, automation & tracking. No <br>clunky spreadsheets <br><br><br></p>
+                                </center>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+
+                            <div class="card-3">
+                                <br><br><br>
+                                <center><img src="./asserts/brand needs to 6.png" alt="" width="270" height="160">
+                                    <br><br><br>
+                                    <h3><b>Complimentary <br> concierge service </b></h3>
+                                    <br>
+                                    <p>Native integrations provide seamless <br> segmentation, automation & tracking. No <br>clunky spreadsheets <br><br><br></p>
+                                </center>
+                            </div>
+                            <br><br><br><br><br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="sec-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <br><br>
+                    <center>
+                        <p class="p-2"><b>Fast launch.Fast results. <br>here now</b></p>
+                    </center><br><br>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <center> <b><h3  class="h-lunch">01</h3></b></center><br>
+                            <center> <b><h3  class="h-lunch">02</h3></b></center><br>
+                            <center> <b><h3  >03</h3></b></center><br><br><br>&nbsp;
+                            <center> <b><h3 class="h-lunch">04</h3></b></center><br>
+                        </div>
+                        <div class="col-sm-4">
+                            <b><h3 class="h-lunch">Segment</h3></b><br>
+                            <b><h3 class="h-lunch">Design</h3></b><br>
+                            <b><h3 >Send </h3></b>
+                            <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin word.</p>
+                            <b><h3 class="h-lunch">Convert</h3></b><br>
+                        </div>
+                        <div class=" col-sm-6">
+                            <img src="./asserts/Here's how.jpg" alt="" height="500px" width="600px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <center>
+                    <p class="p-2"><b>PostPilot is 🔥 for DTC</b></p>
+                </center><br><br>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card-4">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-sm-8 ">
+                                        <p> <br><br>the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary. If you are </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <br><br>
+                                        <center><img src="./asserts/twitter.png" alt=""></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card-5">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-sm-8 ">
+                                        <br><img src="./asserts/DTC 1.png" alt="">
+                                        <div class="helen">
+
+                                            <p><b>Helen Guo</b><br>@HelenGuo_</p>
+                                        </div>
+                                        <p>the <b> Lorem Ipsum </b> is much generators on the Internet tend to repeat predefined
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <br><br>
+                                        <center><img src="./asserts/twitter.png" alt=""></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card-6">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-sm-8 ">
+                                        <br><img src="./asserts/DTC 2.png" alt="">
+                                        <div class="helen">
+
+                                            <p><b>NathanWoods</b><br>@HeisNathan</p>
+                                        </div>
+                                        <p>the <b> Lorem Ipsum </b> is much generators on the Internet tend to repeat predefined
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <br><br>
+                                        <center><img src="./asserts/twitter.png" alt=""></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card-7">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-sm-12 ">
+                                        <br><img src="./asserts/DTC 3.png" alt="">
+                                        <div class="helen">
+
+                                            <p><b>ChrisLander</b><br>@chris_basis</p>
+                                        </div>
+                                        <p>the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary. If you are
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <center><button class="btn-5">TRY IT RISK FREE</button></center>
+        </div>
+
+    </div>
+    <section class="sec-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <br><br><br><br><br> <img class="img-obvi" src="./asserts/OBVI card.png" alt="" width="600">
+
+                </div>
+                <div class="col-sm-6">
+                    <br><br>
+                    <p class="p-2"><b>How obi Drives Profits<br> with Hands-Off Postcard <br>Campaigns</b>
+                    </p>
+                    <p>&nbsp;&nbsp;The supplements brand wanted to offset high and costs and reach <br>&nbsp;&nbsp;docment customers. They scored 1000% + ROIs</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <br><br>
+                                <h1><b>1468%</b></h1>&nbsp;&nbsp;ROI
+                            </div>
+                            <div class="col-sm-4">
+                                <br><br>
+                                <h1><b>8.59%</b></h1>&nbsp;&nbsp;Conversion Rate
+                            </div>
+                            <div class="col-sm-4">
+                                <br><br>
+                                <h1><b>$73,457%</b></h1>&nbsp;&nbsp;Sales Generted
+                            </div>
+
+                        </div>
+                    </div>
+                    </BR>
+                    </BR>
+                    </BR><button class="btn-6 ">READ CASE STUDY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-6">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <br><br>
+                    <h1 class="p-7"><b>Try PostPilot <br>Risk-Free</b></h1>
+                    <br>
+                    <p class="p-8">No contracts. No commitments. Guaranted results.*</p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn-6 "><b>GET STARTED</b></button>
+                            </div>
+                            <div class="col-sm-6">
+                                <br><br> <img src="./asserts/stars.png" alt="">
+                                <p class="p-9">&nbsp;5.0 Shopify Rating</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="p-10">* for qualified brands with over $1m annual Shopify revense</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="./asserts/Risk free.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-7">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <br>
+                    <center>
+                        <h1 class="p-2"><b>Latest trends & insights</b></h1>
+                    </center><br><br>
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-insight" src="./asserts/insights 1.jpg" alt="">
+                    <h4><b><br>3 low-Cost Campaigns <br>You must Run to win BFCM</b></h4>
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-insight" src="./asserts/insights 2.jpg" alt="">
+                    <h4><b><br>Postcard Marketing: The <br> Definitive Guide to High ROI[2022]</b></h4>
+                </div>
+                <div class="col-sm-4">
+                    <img class="img-insight" src="./asserts/insights 3.jpg" alt="">
+                    <h4><b><br>The Ultimate Guide to Thank <br>You Notes for Ecommerce </b></h4><br><br><br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="eco">
+                    <br><br><br><img src="./asserts/eco.png" alt="" height="90px" width="90">
+                    <p class="h-lunch"><br>The Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+
+                <br><br><br>
+                <H6><b>COMPANY</b></H6><br><br>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
